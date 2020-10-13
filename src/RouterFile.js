@@ -11,6 +11,8 @@ import {
 import Activities from './screens/activities/Activities'
 import Activity from './screens/activity/Activity'
 import AddEditActivity from './screens/add-edit-activity/AddEditActivity'
+import Lobby from './screens/lobby/Lobby'
+import Start from './screens/start/Start'
 
 
 export default class RouterFile extends Component {
@@ -27,6 +29,12 @@ export default class RouterFile extends Component {
                         </Route>
                         <Route path="/Add-edit-activity">
                             <AddEditActivity />
+                        </Route>
+                        <Route path="/Start">
+                            <Start />
+                        </Route>
+                        <Route path="/Lobby">
+                            <Lobby />
                         </Route>
                     </Switch>
                 </div>
