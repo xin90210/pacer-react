@@ -5,8 +5,8 @@ import {
     Route,
     Link
 } from 'react-router-dom'
-
-
+import Classcomponent from './Classcomponent'
+import Functioncomponent from './Functioncomponent'
 
 import Activities from './screens/activities/Activities'
 import Activity from './screens/activity/Activity'
@@ -27,6 +27,12 @@ export default class RouterFile extends Component {
                         </Route>
                         <Route path="/Add-edit-activity">
                             <AddEditActivity />
+                        </Route>
+                        <Route path="/Classcomponent">
+                            <Classcomponent />
+                        </Route>
+                        <Route path="/Functioncomponent">
+                            <Functioncomponent />
                         </Route>
                     </Switch>
                 </div>
