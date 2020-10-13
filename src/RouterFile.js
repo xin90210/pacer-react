@@ -37,6 +37,12 @@ export default class RouterFile extends Component {
                         <Route path="/Lobby">
                             <Lobby />
                         </Route>
+                        <Route path="/Classcomponent">
+                            <Classcomponent />
+                        </Route>
+                        <Route path="/Functioncomponent">
+                            <Functioncomponent />
+                        </Route>
                     </Switch>
                 </div>
             </Router>
