@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Fcomponent from './Fcomponent';
-import Ccomponent from './Ccomponent';
+import Functioncomponent from './Functioncomponent';
+import Classcomponent from './Classcomponent';
 import Lobby from './screens/lobby/Lobby';
 import RouterFile from './RouterFile';
 
