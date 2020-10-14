@@ -30,18 +30,11 @@ export default class RouterFile extends Component {
                         <Route path="/Add-edit-activity">
                             <AddEditActivity />
                         </Route>
-
                         <Route path="/Start">
                             <Start />
                         </Route>
                         <Route path="/Lobby">
                             <Lobby />
-                        </Route>
-                        <Route path="/Classcomponent">
-                            <Classcomponent />
-                        </Route>
-                        <Route path="/Functioncomponent">
-                            <Functioncomponent />
                         </Route>
                     </Switch>
                 </div>
