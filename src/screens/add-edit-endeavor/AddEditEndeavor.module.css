@@ -1,24 +1,10 @@
-body, input, button {
-    font: 20px Trebuchet MS, Helvetica, sans-serif;
-  }
-  
-  body {
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    background: #f6f6f6;
-  }
-  
-  main {
-    display: flex;
-  }
-  
-  main>div {
+
+  div {
     margin: auto;
     text-align: center;
   }
   
-  main>div>* {
+  div>* {
     margin: 10px;
   }
   

@@ -1,10 +1,8 @@
 import React from 'react'
-import './AddEditEndeavor.css'
+import styles from './AddEditEndeavor.module.css'
 
 export default function AddEditEndeavor() {
     return (
-        <body>
-            <main>
                 <div>
                     Чего ты хочешь достигнуть? Какой результат желаешь получить? <br />
                     <input type="text" /> <br />
@@ -20,11 +18,9 @@ export default function AddEditEndeavor() {
                         <button>проблема</button>
                         <button>гирька</button>
                     </div>
-                    <button onclick="location.href='/screens/endeavors'">
+                    <button>
                         Запомнить стремление
       </button>
                 </div>
-            </main>
-        </body>
     )
 }
